@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.nav-brand-icon-con {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-icon {
+    font-size: 30px;
+}
+
+.nav-icon-con {
+    align-self: center;
+}
+
+.nav-links-con {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-links {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: #594d6d;
+    font-weight: 500;
+    border-top: #e7e5ea solid 2px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav-btn {
+    height: 50px;
+    width: 150px;
+    border: 0;
+    background-color: #ffdda9;
+    border-radius: 25px;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.startup-bg-con {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-sm-bg.png");
+    min-height: 90vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-startup {
+    color: #ffffff;
+    font-size: 44px;
+    font-family: "Roboto";
+    max-width: 500px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:768px) {
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-icon-con {
+        display: none;
+    }
+
+    .hide {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        border: 0;
+        align-self: center;
+        font-weight: bold;
+        color: #12022f;
+    }
+
+    .about-startup {
+        font-size: 70px;
+    }
+
+    .startup-bg-con {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-lg-bg.png");
+
+    }
+}
